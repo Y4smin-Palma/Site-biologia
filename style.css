@@ -19,5 +19,16 @@ footer{
     grid-row-end: 4;
     background-color: pink;
 }
-
-
+#D{
+ width: 250px;
+background-color: blanchedalmond;
+}
+#E{
+background-color: aliceblue;
+}
+#C{
+    width: 250px;
+    height: 200px;
+    background-color: aliceblue;
+    
+}
