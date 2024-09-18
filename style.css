@@ -55,13 +55,9 @@ h1{
    font-size: 50px;
    text-shadow: 10px 10px 10px cyan;
 }
-.basefake{
-    width: 100%;
-    height: 150%;
-    background-color: blueviolet;
-}
-.dase{
-    width: 100%;
-    height: 30%;
-    background-color: blue;
+
+buttom{
+   width: 100%;  
+   height: 20%; 
+   background-color: blue;                         
 }
