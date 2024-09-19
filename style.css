@@ -1,7 +1,7 @@
 .area-grade{
     display: grid;
     grid-template-columns: repeat(3,33.3%);
-    grid-template-rows: repeat (4,auto);
+    grid-template-rows: 450px 250px 250px 50px;
     gap: 2%;
     height:1000px;
 }
@@ -12,6 +12,7 @@ header{
     grid-row-start: 1;
     grid-row-end: 1;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUJm0bk34dIolHjWOwf6XwHmeZOnCL5GEy-bVILfDrecgm2ytLHZFRDJwxaJwd55wv5fM&usqp=CAU);
+    height: 100%;
 }
 
 article{
@@ -20,32 +21,34 @@ article{
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 4;
+    background-color: black;
+    height: 100%;
 }
 .caixagrande{
+    display: grid;
     grid-column-start:1;
     grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end: 1;
-    background-color: black;
-    display: grid; 
+    grid-row-end: 2;
+    background-color: blueviolet;
     height: 98%;
 }
 .caixaspequenas_esq{
+    display: grid;
     grid-column-start:1;
-    grid-column-end: 1;
+    grid-column-end: 2;
     grid-row-start: 2;
-    grid-row-end: 2;
-    background-color: red;
-    display: grid; 
+    grid-row-end: 3;
+    background-color: violet;
     width: 99%;
 }
 .caixaspequenas_dir{
+    display: grid;
     grid-column-start:2;
-    grid-column-end: 2;
+    grid-column-end: 3;
     grid-row-start: 2;
-    grid-row-end: 2;
-    background-color: pink;
-    display: grid;     
+    grid-row-end: 3;
+    background-color: blue;
     width: 99%;
     margin-left: 1%;
 }
@@ -70,7 +73,8 @@ button{
     background-image: linear-gradient(270deg, #000000 0%, #823233 50%, #7d672f 100%);
 }
 .criador{
-    height: 40%;
+    display: grid;
+    height: 50%;
     width: 100%;
     background-color: aqua;
     text-align: start;
@@ -79,4 +83,19 @@ h2{
     margin-left: 3%;
 }
 .lavosier{
+    display: grid;
+    height: 130%;
+    width: 25%;
+    margin-left:2% ;
+    margin-top: -8%;
+}
+.lavosierimg{
+    display: grid;
+    height: 100%;
+    width: 40%;
+    background-color: #823233;
+    margin-left:25% ;
+}
+.subtexto{
+    
 }
